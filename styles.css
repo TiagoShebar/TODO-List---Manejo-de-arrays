@@ -1,0 +1,92 @@
+article {
+    width: 30%;
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 15%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+body {
+    background-color: rgb(86, 157, 204);
+}
+
+input[type="checkbox"]{
+    position: sticky;
+}
+
+input[type="text"]{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(70, 164, 226);
+    font-size: 15px;
+    align-self: center;
+}
+
+
+#mas {
+    width: 40px;
+    height: 36px;
+    background-color: rgb(70, 164, 226);
+    color: white;
+}
+
+#array {
+    margin: 0;
+    padding: 0;
+}
+
+#boton-calcular {
+    margin-top: 10%;
+}
+
+.contenedor {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    text-align: center;
+    max-height: 100px; /* Establece una altura máxima para el contenedor */
+    padding: 5px; /* Agrega un poco de relleno para el contenido */
+    overflow: hidden; /* Oculta el desbordamiento del contenedor */
+}
+
+.contenedor label {
+    overflow-y: auto; /* Permite el desplazamiento vertical dentro del contenedor */
+    max-height: 100%; /* Establece una altura máxima para el contenido */
+    width: calc(100% - 40px); /* Ajusta el ancho para dejar espacio para el botón de eliminar */
+}
+
+
+.contenedor button {
+    width: 20%;
+    color:red;
+    border: none; /* Elimina el borde */
+    background-color: transparent; /* Hace el fondo transparente */
+    padding: 0; /* Elimina el relleno */
+    margin: 0; /* Elimina los márgenes */
+    cursor: pointer;
+    font-size: 100%;
+    position: sticky;
+}
+
+
+p {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#boton-calcular {
+    background-color: rgb(70, 164, 226);    
+}
